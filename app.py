@@ -15,7 +15,7 @@ lunch_2=Lunch()
 print('Travel Time...')
 travel=Travel(to_set=':20', from_set=':20')
 print('Hours...')
-hours=Hours(start='09:00', crew='09:00', wrap='18:21', travel=travel)
+hours=Hours(start='09:00', crew='09:00', wrap='24:21', travel=travel)
 # hours_start=hours.start - travel_time.to_set
 hours_start=hours.start - timedelta(hours=0,minutes=20)
 ndb=True
@@ -30,5 +30,6 @@ sheets=[]
 sheets.append(temp)
 print(sheets[0])
 work_time=sheets[0].hours.total_hours-sheets[0].meal_1.total_time
+
 print(work_time)
 print(time_calculations.converttime(work_time))
