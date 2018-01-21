@@ -16,12 +16,14 @@
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/database.py" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/menu.py" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/requirements.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/sheet.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/sheet_class.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/time_calculations.py" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/time_calculator.py" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/timesheet info.sql" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/BG Base.iml" afterPath="$PROJECT_DIR$/.idea/BG Base.iml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app.py" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app.py" afterPath="$PROJECT_DIR$/app.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/sheet_class.py" afterPath="$PROJECT_DIR$/project/sheet_class.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -33,17 +35,17 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/BG_Base$Test.coverage" NAME="Test Coverage Results" MODIFIED="1516111016050" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/First Attempt" />
     <SUITE FILE_PATH="coverage/BG_Base$time_calculations.coverage" NAME="time_calculations Coverage Results" MODIFIED="1516374203071" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project" />
-    <SUITE FILE_PATH="coverage/BG_Base$app.coverage" NAME="app Coverage Results" MODIFIED="1516411859261" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/BG_Base$app.coverage" NAME="app Coverage Results" MODIFIED="1516496006077" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/BG_Base$sheet.coverage" NAME="sheet Coverage Results" MODIFIED="1516142520239" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project" />
     <SUITE FILE_PATH="coverage/BG_Base$time_calculator_test.coverage" NAME="time_calculator_test Coverage Results" MODIFIED="1516147730760" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/First Attempt" />
     <SUITE FILE_PATH="coverage/BG_Base$sheet_class.coverage" NAME="sheet_class Coverage Results" MODIFIED="1516407458058" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="time_calculator_test.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/project/First Attempt/time_calculator_test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-37">
+            <state relative-caret-position="1258">
               <caret line="75" column="18" lean-forward="false" selection-start-line="75" selection-start-column="18" selection-end-line="75" selection-end-column="18" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
@@ -67,7 +69,7 @@
       <file leaf-file-name="Test.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/project/First Attempt/Test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="116">
+            <state relative-caret-position="170">
               <caret line="14" column="12" lean-forward="false" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="56" />
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
@@ -79,7 +81,7 @@
       <file leaf-file-name="timesheet.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/project/First Attempt/timesheet.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
+            <state relative-caret-position="969">
               <caret line="61" column="55" lean-forward="false" selection-start-line="61" selection-start-column="46" selection-end-line="61" selection-end-column="55" />
               <folding>
                 <element signature="e#0#40#0" expanded="true" />
@@ -95,11 +97,9 @@
       <file leaf-file-name="time_calculator.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/project/time_calculator.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-173">
-              <caret line="43" column="13" lean-forward="true" selection-start-line="43" selection-start-column="0" selection-end-line="45" selection-end-column="24" />
-              <folding>
-                <element signature="e#0#11#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -107,7 +107,7 @@
       <file leaf-file-name="sheet.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/project/sheet.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
+            <state relative-caret-position="289">
               <caret line="17" column="13" lean-forward="false" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
               <folding />
             </state>
@@ -117,40 +117,53 @@
       <file leaf-file-name="sheet_class.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/project/sheet_class.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="101">
-              <caret line="35" column="34" lean-forward="false" selection-start-line="35" selection-start-column="34" selection-end-line="35" selection-end-column="34" />
+            <state relative-caret-position="305">
+              <caret line="53" column="8" lean-forward="true" selection-start-line="53" selection-start-column="8" selection-end-line="53" selection-end-column="8" />
               <folding>
                 <element signature="e#0#40#0" expanded="true" />
                 <element signature="e#188#1046#0" expanded="false" />
-                <element signature="e#1832#2421#0" expanded="false" />
-                <element signature="e#2440#2695#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="time_calculations.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="time_calculations.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/project/time_calculations.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="251">
-              <caret line="101" column="19" lean-forward="true" selection-start-line="101" selection-start-column="19" selection-end-line="101" selection-end-column="19" />
+            <state relative-caret-position="169">
+              <caret line="112" column="0" lean-forward="false" selection-start-line="112" selection-start-column="0" selection-end-line="112" selection-end-column="0" />
               <folding>
                 <element signature="e#0#40#0" expanded="true" />
-                <element signature="e#387#1671#0" expanded="false" />
-                <element signature="e#479#1655#0" expanded="false" />
-                <element signature="e#4631#4977#0" expanded="false" />
+                <element signature="e#134#193#0" expanded="false" />
+                <element signature="e#257#374#0" expanded="false" />
+                <element signature="e#400#1684#0" expanded="false" />
+                <element signature="e#492#1668#0" expanded="false" />
+                <element signature="e#591#1668#0" expanded="false" />
+                <element signature="e#703#1668#0" expanded="false" />
+                <element signature="e#827#1668#0" expanded="false" />
+                <element signature="e#956#1668#0" expanded="false" />
+                <element signature="e#1103#1668#0" expanded="false" />
+                <element signature="e#1262#1668#0" expanded="false" />
+                <element signature="e#1433#1668#0" expanded="false" />
+                <element signature="e#1778#3504#0" expanded="false" />
+                <element signature="e#1799#2094#0" expanded="false" />
+                <element signature="e#2505#2623#0" expanded="false" />
+                <element signature="e#4362#4394#0" expanded="false" />
+                <element signature="e#5075#5421#0" expanded="false" />
+                <element signature="e#5495#6019#0" expanded="false" />
+                <element signature="e#5543#5653#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app.py">
+      <file leaf-file-name="app.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/project/app.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+            <state relative-caret-position="116">
+              <caret line="40" column="36" lean-forward="false" selection-start-line="40" selection-start-column="36" selection-end-line="40" selection-end-column="36" />
               <folding>
-                <element signature="e#0#30#0" expanded="true" />
+                <element signature="e#0#40#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -182,7 +195,7 @@
   </component>
   <component name="Git.Settings">
     <option name="UPDATE_TYPE" value="MERGE" />
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/project" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -192,8 +205,9 @@
         <option value="$PROJECT_DIR$/project/First Attempt/time_calculator_test.py" />
         <option value="$PROJECT_DIR$/project/First Attempt/timesheet.py" />
         <option value="$PROJECT_DIR$/app.py" />
-        <option value="$PROJECT_DIR$/project/sheet_class.py" />
         <option value="$PROJECT_DIR$/project/time_calculations.py" />
+        <option value="$PROJECT_DIR$/project/sheet_class.py" />
+        <option value="$PROJECT_DIR$/project/app.py" />
       </list>
     </option>
   </component>
@@ -208,6 +222,7 @@
     <option name="width" value="1936" />
     <option name="height" value="1066" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -235,18 +250,12 @@
               <item name="bbase" type="462c0819:PsiDirectoryNode" />
               <item name="project" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="BG Base" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bbase" type="462c0819:PsiDirectoryNode" />
-              <item name="project" type="462c0819:PsiDirectoryNode" />
-              <item name="First Attempt" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -262,6 +271,11 @@
         <option name="myAddSourceRoots" value="true" />
       </console-settings>
     </option>
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="Z:\Users\y2venom\Programming\Python\projects\bbase\project" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -340,22 +354,6 @@
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="ADDITIONAL_ARGS" value="" />
     </configuration>
-    <configuration default="true" type="tests" factoryName="Nosetests">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="bbase" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="_new_regexPattern" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
-    </configuration>
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -385,6 +383,22 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <module name="bbase" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Nosetests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="bbase" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="_new_regexPattern" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
     </configuration>
     <configuration default="true" type="tests" factoryName="Unittests">
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -430,7 +444,7 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="BG Base" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/app.py" />
+      <option name="SCRIPT_NAME" value="Z:\Users\y2venom\Programming\Python\projects\bbase\project\app.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -527,6 +541,9 @@
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
   </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="cc85bf82-896e-40d0-9e68-9ea5e2bb09fc" name="Default" comment="" />
@@ -591,7 +608,28 @@
       <option name="project" value="LOCAL" />
       <updated>1516408080491</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Big Updates:&#10;time_calculations working as functions instead of classes&#10;sheet_class - all functions working. &#10;-have to try to get it to return a dictionary&#10;+Added #TODOS&#10;+Rounds values to nearest .10 of an hour">
+      <created>1516411930609</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1516411930609</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Big Updates:&#10;time_calculations working as functions instead of classes&#10;sheet_class - all functions working. &#10;-have to try to get it to return a dictionary&#10;+Added #TODOS&#10;+Rounds values to nearest .10 of an hour Completed">
+      <created>1516412603372</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1516412603372</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Big Updates:&#10;time_calculations working as functions instead of classes&#10;sheet_class - all functions working. &#10;-have to try to get it to return a dictionary&#10;+Added #TODOS&#10;+Rounds values to nearest .10 of an hour Completed">
+      <created>1516412709384</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1516412709384</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TodoView" selected-index="4">
@@ -604,24 +642,24 @@
     <frame x="18" y="0" width="1936" height="1066" extended-state="0" />
     <editor active="true" />
     <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2553305" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290461" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3290461" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290461" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290461" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290461" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3290461" sideWeight="0.510661" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3290461" sideWeight="0.48933902" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290461" sideWeight="0.4978678" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39978564" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290461" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39978564" sideWeight="0.4978678" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290461" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
@@ -659,27 +697,13 @@
     <MESSAGE value="Hours&#10;+Modified the date and time addition&#10;+started to work on findinf the difference between two times&#10;&#10;-have to try to get it to return a dictionary" />
     <MESSAGE value="Hours&#10;+Modified the date and time addition&#10;+started to work on finding the difference between two times&#10;&#10;-have to try to get it to return a dictionary&#10;+Added #TODOS" />
     <MESSAGE value="Big Updates:&#10;time_calculations working as functions instead of classes&#10;sheet_class - all functions working. &#10;-have to try to get it to return a dictionary&#10;+Added #TODOS" />
-    <option name="LAST_COMMIT_MESSAGE" value="Big Updates:&#10;time_calculations working as functions instead of classes&#10;sheet_class - all functions working. &#10;-have to try to get it to return a dictionary&#10;+Added #TODOS" />
+    <MESSAGE value="Big Updates:&#10;time_calculations working as functions instead of classes&#10;sheet_class - all functions working. &#10;-have to try to get it to return a dictionary&#10;+Added #TODOS&#10;+Rounds values to nearest .10 of an hour" />
+    <MESSAGE value="Big Updates:&#10;time_calculations working as functions instead of classes&#10;sheet_class - all functions working. &#10;-have to try to get it to return a dictionary&#10;+Added #TODOS&#10;+Rounds values to nearest .10 of an hour Completed" />
+    <MESSAGE value="Big Updates:&#10;time_calculations working as functions instead of classes&#10;sheet_class - all functions working. &#10;-have to try to get it to return a dictionary&#10;+Started working on meal penalty calculations" />
+    <option name="LAST_COMMIT_MESSAGE" value="Big Updates:&#10;time_calculations working as functions instead of classes&#10;sheet_class - all functions working. &#10;-have to try to get it to return a dictionary&#10;+Started working on meal penalty calculations" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/project/sheet_class.py</url>
-          <line>36</line>
-          <option name="timeStamp" value="55" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/project/time_calculations.py</url>
-          <line>77</line>
-          <option name="timeStamp" value="65" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/project/time_calculations.py</url>
-          <line>105</line>
-          <option name="timeStamp" value="68" />
-        </line-breakpoint>
-      </breakpoints>
       <default-breakpoints>
         <breakpoint type="python-exception">
           <properties notifyOnTerminate="true" exception="BaseException">
@@ -687,7 +711,7 @@
           </properties>
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="69" />
+      <option name="time" value="71" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="PythonConfigurationType">
@@ -696,11 +720,221 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/project/app.py">
+    <entry file="file://$PROJECT_DIR$/project/First Attempt/time_calculator_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1258">
+          <caret line="75" column="18" lean-forward="false" selection-start-line="75" selection-start-column="18" selection-end-line="75" selection-end-column="18" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/First Attempt/show.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/First Attempt/Test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="14" column="12" lean-forward="false" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="56" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/First Attempt/timesheet.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="969">
+          <caret line="61" column="55" lean-forward="false" selection-start-line="61" selection-start-column="46" selection-end-line="61" selection-end-column="55" />
+          <folding>
+            <element signature="e#0#40#0" expanded="true" />
+            <element signature="e#1996#2258#0" expanded="false" />
+            <element signature="e#3447#3662#0" expanded="false" />
+            <element signature="e#4559#4688#0" expanded="false" />
+            <element signature="e#4718#5376#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/time_calculator.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/sheet.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="13" lean-forward="false" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/sheet_class.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="35" column="37" lean-forward="true" selection-start-line="35" selection-start-column="37" selection-end-line="35" selection-end-column="37" />
+          <folding>
+            <element signature="e#0#40#0" expanded="true" />
+            <element signature="e#188#1046#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/time_calculations.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="93" column="46" lean-forward="true" selection-start-line="93" selection-start-column="46" selection-end-line="93" selection-end-column="46" />
+          <folding>
+            <element signature="e#0#40#0" expanded="true" />
+            <element signature="e#134#193#0" expanded="false" />
+            <element signature="e#257#374#0" expanded="false" />
+            <element signature="e#400#1684#0" expanded="false" />
+            <element signature="e#492#1668#0" expanded="false" />
+            <element signature="e#591#1668#0" expanded="false" />
+            <element signature="e#703#1668#0" expanded="false" />
+            <element signature="e#827#1668#0" expanded="false" />
+            <element signature="e#956#1668#0" expanded="false" />
+            <element signature="e#1103#1668#0" expanded="false" />
+            <element signature="e#1262#1668#0" expanded="false" />
+            <element signature="e#1433#1668#0" expanded="false" />
+            <element signature="e#1778#3504#0" expanded="false" />
+            <element signature="e#1799#2094#0" expanded="false" />
+            <element signature="e#2505#2623#0" expanded="false" />
+            <element signature="e#4362#4394#0" expanded="false" />
+            <element signature="e#5075#5421#0" expanded="false" />
+            <element signature="e#5495#6019#0" expanded="false" />
+            <element signature="e#5543#5653#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/app.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="39" lean-forward="false" selection-start-line="2" selection-start-column="39" selection-end-line="2" selection-end-column="39" />
+          <folding>
+            <element signature="e#0#40#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/First Attempt/time_calculator_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1258">
+          <caret line="75" column="18" lean-forward="false" selection-start-line="75" selection-start-column="18" selection-end-line="75" selection-end-column="18" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/First Attempt/show.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/First Attempt/Test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="14" column="12" lean-forward="false" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="56" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/First Attempt/timesheet.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="969">
+          <caret line="61" column="55" lean-forward="false" selection-start-line="61" selection-start-column="46" selection-end-line="61" selection-end-column="55" />
+          <folding>
+            <element signature="e#0#40#0" expanded="true" />
+            <element signature="e#1996#2258#0" expanded="false" />
+            <element signature="e#3447#3662#0" expanded="false" />
+            <element signature="e#4559#4688#0" expanded="false" />
+            <element signature="e#4718#5376#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/time_calculator.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="748">
+          <caret line="46" column="0" lean-forward="true" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/sheet.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="13" lean-forward="false" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/sheet_class.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="35" column="37" lean-forward="true" selection-start-line="35" selection-start-column="37" selection-end-line="35" selection-end-column="37" />
+          <folding>
+            <element signature="e#0#40#0" expanded="true" />
+            <element signature="e#188#1046#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/app.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="20" lean-forward="true" selection-start-line="24" selection-start-column="20" selection-end-line="24" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#40#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/time_calculations.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="93" column="46" lean-forward="true" selection-start-line="93" selection-start-column="46" selection-end-line="93" selection-end-column="46" />
+          <folding>
+            <element signature="e#0#40#0" expanded="true" />
+            <element signature="e#134#193#0" expanded="false" />
+            <element signature="e#257#374#0" expanded="false" />
+            <element signature="e#400#1684#0" expanded="false" />
+            <element signature="e#492#1668#0" expanded="false" />
+            <element signature="e#591#1668#0" expanded="false" />
+            <element signature="e#703#1668#0" expanded="false" />
+            <element signature="e#827#1668#0" expanded="false" />
+            <element signature="e#956#1668#0" expanded="false" />
+            <element signature="e#1103#1668#0" expanded="false" />
+            <element signature="e#1262#1668#0" expanded="false" />
+            <element signature="e#1433#1668#0" expanded="false" />
+            <element signature="e#1778#3504#0" expanded="false" />
+            <element signature="e#1799#2094#0" expanded="false" />
+            <element signature="e#2505#2623#0" expanded="false" />
+            <element signature="e#4362#4394#0" expanded="false" />
+            <element signature="e#5075#5421#0" expanded="false" />
+            <element signature="e#5495#6019#0" expanded="false" />
+            <element signature="e#5543#5653#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -708,7 +942,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -716,7 +949,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="381">
           <caret line="794" column="8" lean-forward="false" selection-start-line="794" selection-start-column="8" selection-end-line="794" selection-end-column="8" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -732,7 +964,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/project/First Attempt/Test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="116">
+        <state relative-caret-position="170">
           <caret line="14" column="12" lean-forward="false" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="56" />
           <folding>
             <element signature="e#0#11#0" expanded="true" />
@@ -742,7 +974,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/project/First Attempt/time_calculator_test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-37">
+        <state relative-caret-position="1258">
           <caret line="75" column="18" lean-forward="false" selection-start-line="75" selection-start-column="18" selection-end-line="75" selection-end-column="18" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
@@ -752,7 +984,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/project/sheet.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
+        <state relative-caret-position="289">
           <caret line="17" column="13" lean-forward="false" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
           <folding />
         </state>
@@ -768,19 +1000,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/project/time_calculator.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-173">
-          <caret line="43" column="13" lean-forward="true" selection-start-line="43" selection-start-column="0" selection-end-line="45" selection-end-column="24" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/project/First Attempt/timesheet.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
+        <state relative-caret-position="969">
           <caret line="61" column="55" lean-forward="false" selection-start-line="61" selection-start-column="46" selection-end-line="61" selection-end-column="55" />
           <folding>
             <element signature="e#0#40#0" expanded="true" />
@@ -796,42 +1018,72 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="308" column="0" lean-forward="false" selection-start-line="308" selection-start-column="0" selection-end-line="308" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app.py">
+    <entry file="file://$PROJECT_DIR$/project/app.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+        <state relative-caret-position="456">
+          <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
           <folding>
-            <element signature="e#0#30#0" expanded="true" />
+            <element signature="e#0#40#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/time_calculator.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/project/sheet_class.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="101">
-          <caret line="35" column="34" lean-forward="false" selection-start-line="35" selection-start-column="34" selection-end-line="35" selection-end-column="34" />
+        <state relative-caret-position="305">
+          <caret line="53" column="8" lean-forward="true" selection-start-line="53" selection-start-column="8" selection-end-line="53" selection-end-column="8" />
           <folding>
             <element signature="e#0#40#0" expanded="true" />
             <element signature="e#188#1046#0" expanded="false" />
-            <element signature="e#1832#2421#0" expanded="false" />
-            <element signature="e#2440#2695#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/project/time_calculations.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="251">
-          <caret line="101" column="19" lean-forward="true" selection-start-line="101" selection-start-column="19" selection-end-line="101" selection-end-column="19" />
+        <state relative-caret-position="169">
+          <caret line="112" column="0" lean-forward="false" selection-start-line="112" selection-start-column="0" selection-end-line="112" selection-end-column="0" />
           <folding>
             <element signature="e#0#40#0" expanded="true" />
-            <element signature="e#387#1671#0" expanded="false" />
-            <element signature="e#479#1655#0" expanded="false" />
-            <element signature="e#4631#4977#0" expanded="false" />
+            <element signature="e#134#193#0" expanded="false" />
+            <element signature="e#257#374#0" expanded="false" />
+            <element signature="e#400#1684#0" expanded="false" />
+            <element signature="e#492#1668#0" expanded="false" />
+            <element signature="e#591#1668#0" expanded="false" />
+            <element signature="e#703#1668#0" expanded="false" />
+            <element signature="e#827#1668#0" expanded="false" />
+            <element signature="e#956#1668#0" expanded="false" />
+            <element signature="e#1103#1668#0" expanded="false" />
+            <element signature="e#1262#1668#0" expanded="false" />
+            <element signature="e#1433#1668#0" expanded="false" />
+            <element signature="e#1778#3504#0" expanded="false" />
+            <element signature="e#1799#2094#0" expanded="false" />
+            <element signature="e#2505#2623#0" expanded="false" />
+            <element signature="e#4362#4394#0" expanded="false" />
+            <element signature="e#5075#5421#0" expanded="false" />
+            <element signature="e#5495#6019#0" expanded="false" />
+            <element signature="e#5543#5653#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/app.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="40" column="36" lean-forward="false" selection-start-line="40" selection-start-column="36" selection-end-line="40" selection-end-column="36" />
+          <folding>
+            <element signature="e#0#40#0" expanded="true" />
           </folding>
         </state>
       </provider>
