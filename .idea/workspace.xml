@@ -1,30 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cc85bf82-896e-40d0-9e68-9ea5e2bb09fc" name="Default" comment="Big Updates:&#10;time_calculations working as functions instead of classes&#10;sheet_class - all functions working. &#10;-have to try to get it to return a dictionary&#10;+Started working on meal penalty calculations&#10;&#10;Calendar and Directions&#10;+Ability to link to Calendar and return Location&#10;+Push Location to google maps to get mileage, and directions&#10;-need to do calculation for departure time to include 15-20 minutes&#10;-do calculations for optimistic and pessimistic returns&#10;&#10;look into though HTTP Push.">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/.idea/project.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/First Attempt/Test.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/First Attempt/recall.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/First Attempt/show.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/First Attempt/time_calculator_test.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/First Attempt/timesheet.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/calculator.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/database.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/menu.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/requirements.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/time_calculator.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/timesheet info.sql" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/time_calculator.py" afterPath="" />
+    <list default="true" id="cc85bf82-896e-40d0-9e68-9ea5e2bb09fc" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/Calendar_Directions/push_to_calendar.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/Save_Photos/photos.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/.idea/workspace.xml" afterPath="$PROJECT_DIR$/project/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/First Attempt/Test.py" afterPath="$PROJECT_DIR$/project/First Attempt/Test.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/app.py" afterPath="$PROJECT_DIR$/project/app.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/requirements.txt" afterPath="$PROJECT_DIR$/project/requirements.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/database.py" afterPath="$PROJECT_DIR$/project/database.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/menu.py" afterPath="$PROJECT_DIR$/project/menu.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/sheet_class.py" afterPath="$PROJECT_DIR$/project/sheet_class.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/time_calculations.py" afterPath="$PROJECT_DIR$/project/time_calculations.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -34,11 +18,11 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/BG_Base$time_calculations.coverage" NAME="time_calculations Coverage Results" MODIFIED="1518362940669" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project" />
     <SUITE FILE_PATH="coverage/BG_Base$app.coverage" NAME="app Coverage Results" MODIFIED="1518363595627" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project" />
+    <SUITE FILE_PATH="coverage/BG_Base$time_calculations.coverage" NAME="time_calculations Coverage Results" MODIFIED="1518526560309" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project" />
     <SUITE FILE_PATH="coverage/BG_Base$sheet.coverage" NAME="sheet Coverage Results" MODIFIED="1516142520239" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project" />
     <SUITE FILE_PATH="coverage/BG_Base$directions__1_.coverage" NAME="directions (1) Coverage Results" MODIFIED="1518361911926" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project" />
-    <SUITE FILE_PATH="coverage/BG_Base$sheet_class.coverage" NAME="sheet_class Coverage Results" MODIFIED="1516407458058" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project" />
+    <SUITE FILE_PATH="coverage/BG_Base$sheet_class.coverage" NAME="sheet_class Coverage Results" MODIFIED="1518534718500" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project" />
     <SUITE FILE_PATH="coverage/BG_Base$directions__2_.coverage" NAME="directions (2) Coverage Results" MODIFIED="1518362752695" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/Calendar_Directions" />
     <SUITE FILE_PATH="coverage/BG_Base$Test.coverage" NAME="Test Coverage Results" MODIFIED="1516539247381" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/First Attempt" />
     <SUITE FILE_PATH="coverage/BG_Base$test.coverage" NAME="test Coverage Results" MODIFIED="1518360104768" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/Calendar_Directions" />
@@ -51,22 +35,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="timesheet.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/project/First Attempt/timesheet.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="105" column="0" lean-forward="false" selection-start-line="105" selection-start-column="0" selection-end-line="105" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#40#0" expanded="true" />
-                <element signature="e#1996#2258#0" expanded="false" />
-                <element signature="e#3447#3662#0" expanded="false" />
-                <element signature="e#4559#4688#0" expanded="false" />
-                <element signature="e#4718#5376#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="sheet.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/project/sheet.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -80,11 +48,72 @@
       <file leaf-file-name="sheet_class.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/project/sheet_class.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-448">
-              <caret line="64" column="0" lean-forward="true" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
+            <state relative-caret-position="436">
+              <caret line="225" column="38" lean-forward="true" selection-start-line="225" selection-start-column="38" selection-end-line="225" selection-end-column="38" />
               <folding>
                 <element signature="e#0#40#0" expanded="true" />
-                <marker date="1516545667047" expanded="true" signature="2668:2829" ph="..." />
+                <element signature="e#5509#6248#0" expanded="false" />
+                <marker date="1518534717001" expanded="true" signature="2587:2748" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="push_to_calendar.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/project/Calendar_Directions/push_to_calendar.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="menu.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/project/menu.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="442">
+              <caret line="26" column="3" lean-forward="true" selection-start-line="26" selection-start-column="3" selection-end-line="26" selection-end-column="3" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="directions.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/project/Calendar_Directions/directions.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="62">
+              <caret line="70" column="50" lean-forward="false" selection-start-line="70" selection-start-column="50" selection-end-line="70" selection-end-column="50" />
+              <folding>
+                <element signature="e#0#17#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="photos.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/project/Save_Photos/photos.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="11" column="26" lean-forward="true" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
+              <folding>
+                <element signature="e#24#33#0" expanded="true" />
+                <marker date="1518364491093" expanded="true" signature="146:257" ph="CREATE TABLE... files" />
+                <marker date="1518364491093" expanded="true" signature="987:1070" ph="SELECT 1 FRO... tables" />
+                <marker date="1518364491093" expanded="true" signature="1992:2075" ph="INSERT INTO files... " />
+                <marker date="1518364491093" expanded="true" signature="2495:2551" ph="SELECT file_... files" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="database.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/project/database.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+              <folding>
+                <element signature="e#32#57#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -93,8 +122,8 @@
       <file leaf-file-name="time_calculations.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/project/time_calculations.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-873">
-              <caret line="61" column="90" lean-forward="false" selection-start-line="61" selection-start-column="90" selection-end-line="61" selection-end-column="90" />
+            <state relative-caret-position="-172">
+              <caret line="92" column="19" lean-forward="true" selection-start-line="92" selection-start-column="19" selection-end-line="92" selection-end-column="19" />
               <folding>
                 <element signature="e#0#40#0" expanded="true" />
                 <element signature="e#134#193#0" expanded="false" />
@@ -109,20 +138,7 @@
                 <element signature="e#1433#1668#0" expanded="false" />
                 <element signature="e#1799#2094#0" expanded="false" />
                 <element signature="e#2505#2623#0" expanded="false" />
-                <element signature="e#4362#4394#0" expanded="false" />
-                <element signature="e#5543#5653#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="directions.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/project/Calendar_Directions/directions.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="283">
-              <caret line="70" column="50" lean-forward="false" selection-start-line="70" selection-start-column="50" selection-end-line="70" selection-end-column="50" />
-              <folding>
-                <element signature="e#0#17#0" expanded="true" />
+                <element signature="e#4477#4509#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -146,18 +162,6 @@
             <state relative-caret-position="221">
               <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="app.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/project/app.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="419">
-              <caret line="59" column="31" lean-forward="true" selection-start-line="59" selection-start-column="31" selection-end-line="59" selection-end-column="31" />
-              <folding>
-                <element signature="e#0#40#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -197,15 +201,19 @@
         <option value="$PROJECT_DIR$/project/First Attempt/time_calculator_test.py" />
         <option value="$PROJECT_DIR$/project/First Attempt/timesheet.py" />
         <option value="$PROJECT_DIR$/app.py" />
-        <option value="$PROJECT_DIR$/project/time_calculations.py" />
         <option value="$PROJECT_DIR$/project/First Attempt/Test.py" />
         <option value="$PROJECT_DIR$/project/requirements.txt" />
         <option value="$PROJECT_DIR$/project/get_calendar_data.py" />
         <option value="$PROJECT_DIR$/project/directions.py" />
         <option value="$PROJECT_DIR$/project/Calendar_Directions/get_calendar_data.py" />
         <option value="$PROJECT_DIR$/project/Calendar_Directions/directions.py" />
-        <option value="$PROJECT_DIR$/project/sheet_class.py" />
         <option value="$PROJECT_DIR$/project/app.py" />
+        <option value="$PROJECT_DIR$/project/Calendar_Directions/push_to_calendar.py" />
+        <option value="$PROJECT_DIR$/project/Save_Photos/photos.py" />
+        <option value="$PROJECT_DIR$/project/database.py" />
+        <option value="$PROJECT_DIR$/project/menu.py" />
+        <option value="$PROJECT_DIR$/project/time_calculations.py" />
+        <option value="$PROJECT_DIR$/project/sheet_class.py" />
       </list>
     </option>
   </component>
@@ -215,13 +223,15 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1912" />
-    <option name="y" value="-8" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="77" />
+    <option name="y" value="4" />
     <option name="width" value="1696" />
     <option name="height" value="1036" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -295,7 +305,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.app">
+  <component name="RunManager" selected="Python.sheet_class">
     <configuration default="true" type="PyBehaveRunConfigurationType" factoryName="Behave">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -473,24 +483,6 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <configuration name="get_calendar_data (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/project" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="BG Base" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="Z:\Users\y2venom\Programming\Python\projects\bbase\project\Calendar_Directions\get_calendar_data.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-    </configuration>
     <configuration name="get_calendar_data (2)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -505,6 +497,24 @@
       <module name="BG Base" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/project/Calendar_Directions/get_calendar_data.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
+    <configuration name="sheet_class" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/project" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="BG Base" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/project/sheet_class.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -528,19 +538,19 @@
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.get_calendar_data (1)" />
-      <item index="1" class="java.lang.String" itemvalue="Python.directions (2)" />
-      <item index="2" class="java.lang.String" itemvalue="Python.get_calendar_data (2)" />
-      <item index="3" class="java.lang.String" itemvalue="Python.time_calculations" />
-      <item index="4" class="java.lang.String" itemvalue="Python.app" />
+      <item index="0" class="java.lang.String" itemvalue="Python.directions (2)" />
+      <item index="1" class="java.lang.String" itemvalue="Python.get_calendar_data (2)" />
+      <item index="2" class="java.lang.String" itemvalue="Python.time_calculations" />
+      <item index="3" class="java.lang.String" itemvalue="Python.app" />
+      <item index="4" class="java.lang.String" itemvalue="Python.sheet_class" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.app" />
+        <item index="0" class="java.lang.String" itemvalue="Python.sheet_class" />
         <item index="1" class="java.lang.String" itemvalue="Python.time_calculations" />
-        <item index="2" class="java.lang.String" itemvalue="Python.get_calendar_data (2)" />
-        <item index="3" class="java.lang.String" itemvalue="Python.directions (2)" />
-        <item index="4" class="java.lang.String" itemvalue="Python.get_calendar_data (1)" />
+        <item index="2" class="java.lang.String" itemvalue="Python.app" />
+        <item index="3" class="java.lang.String" itemvalue="Python.get_calendar_data (2)" />
+        <item index="4" class="java.lang.String" itemvalue="Python.directions (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -642,7 +652,14 @@
       <option name="project" value="LOCAL" />
       <updated>1516496109599</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Big Updates:&#10;time_calculations working as functions instead of classes&#10;sheet_class - all functions working. &#10;-have to try to get it to return a dictionary&#10;+Started working on meal penalty calculations&#10;&#10;Calendar and Directions&#10;+Ability to link to Calendar and return Location&#10;+Push Location to google maps to get mileage, and directions&#10;-need to do calculation for departure time to include 15-20 minutes&#10;-do calculations for optimistic and pessimistic returns&#10;&#10;look into though HTTP Push.">
+      <created>1518363790854</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1518363790854</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TodoView" selected-index="5">
@@ -652,13 +669,14 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1912" y="-8" width="1696" height="1036" extended-state="6" />
+    <frame x="77" y="4" width="1696" height="1036" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="TODO" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32890365" sideWeight="0.49511003" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32890365" sideWeight="0.50488997" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32890365" sideWeight="0.65525675" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32890365" sideWeight="0.49266502" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32890365" sideWeight="0.3661369" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32890365" sideWeight="0.6338631" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290461" sideWeight="0.4978678" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32890365" sideWeight="0.48349634" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290461" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29951102" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -714,7 +732,8 @@
     <MESSAGE value="Big Updates:&#10;time_calculations working as functions instead of classes&#10;sheet_class - all functions working. &#10;-have to try to get it to return a dictionary&#10;+Added #TODOS&#10;+Rounds values to nearest .10 of an hour Completed" />
     <MESSAGE value="Big Updates:&#10;time_calculations working as functions instead of classes&#10;sheet_class - all functions working. &#10;-have to try to get it to return a dictionary&#10;+Started working on meal penalty calculations" />
     <MESSAGE value="Big Updates:&#10;time_calculations working as functions instead of classes&#10;sheet_class - all functions working. &#10;-have to try to get it to return a dictionary&#10;+Started working on meal penalty calculations&#10;&#10;Calendar and Directions&#10;+Ability to link to Calendar and return Location&#10;+Push Location to google maps to get mileage, and directions&#10;-need to do calculation for departure time to include 15-20 minutes&#10;-do calculations for optimistic and pessimistic returns&#10;&#10;look into though HTTP Push." />
-    <option name="LAST_COMMIT_MESSAGE" value="Big Updates:&#10;time_calculations working as functions instead of classes&#10;sheet_class - all functions working. &#10;-have to try to get it to return a dictionary&#10;+Started working on meal penalty calculations&#10;&#10;Calendar and Directions&#10;+Ability to link to Calendar and return Location&#10;+Push Location to google maps to get mileage, and directions&#10;-need to do calculation for departure time to include 15-20 minutes&#10;-do calculations for optimistic and pessimistic returns&#10;&#10;look into though HTTP Push." />
+    <MESSAGE value="Big Updates:&#10;time_calculations working as functions instead of classes&#10;sheet_class - all functions working. &#10;-have to try to get it to return a dictionary&#10;+Started working on meal penalty calculations&#10;&#10;Calendar and Directions&#10;+Ability to link to Calendar and return Location&#10;+Push Location to google maps to get mileage, and directions&#10;-need to do calculation for departure time to include 15-20 minutes&#10;-do calculations for optimistic and pessimistic returns&#10;&#10;+did some corrections to time_calculation&#10;+fixed sheet_class more funtional. Need to finish off penalty &#10;calculations and flags&#10;need to figure out work day calculation with lunch deducted.&#10;&#10;look into though HTTP Push." />
+    <option name="LAST_COMMIT_MESSAGE" value="Big Updates:&#10;time_calculations working as functions instead of classes&#10;sheet_class - all functions working. &#10;-have to try to get it to return a dictionary&#10;+Started working on meal penalty calculations&#10;&#10;Calendar and Directions&#10;+Ability to link to Calendar and return Location&#10;+Push Location to google maps to get mileage, and directions&#10;-need to do calculation for departure time to include 15-20 minutes&#10;-do calculations for optimistic and pessimistic returns&#10;&#10;+did some corrections to time_calculation&#10;+fixed sheet_class more funtional. Need to finish off penalty &#10;calculations and flags&#10;need to figure out work day calculation with lunch deducted.&#10;&#10;look into though HTTP Push." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -741,49 +760,6 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/project/First Attempt/timesheet.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1564">
-          <caret line="105" column="0" lean-forward="false" selection-start-line="105" selection-start-column="0" selection-end-line="105" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#40#0" expanded="true" />
-            <element signature="e#1996#2258#0" expanded="false" />
-            <element signature="e#3447#3662#0" expanded="false" />
-            <element signature="e#4559#4688#0" expanded="false" />
-            <element signature="e#4718#5376#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project/sheet.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="13" lean-forward="false" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project/sheet_class.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="25" column="42" lean-forward="false" selection-start-line="25" selection-start-column="42" selection-end-line="25" selection-end-column="42" />
-          <folding>
-            <element signature="e#0#40#0" expanded="true" />
-            <marker date="1516545667047" expanded="true" signature="2668:2829" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project/app.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="36" column="0" lean-forward="true" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#40#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/project/time_calculations.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
@@ -802,8 +778,7 @@
             <element signature="e#1433#1668#0" expanded="false" />
             <element signature="e#1799#2094#0" expanded="false" />
             <element signature="e#2505#2623#0" expanded="false" />
-            <element signature="e#4362#4394#0" expanded="false" />
-            <element signature="e#5543#5653#0" expanded="false" />
+            <element signature="e#4477#4509#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -866,7 +841,8 @@
           <caret line="25" column="42" lean-forward="false" selection-start-line="25" selection-start-column="42" selection-end-line="25" selection-end-column="42" />
           <folding>
             <element signature="e#0#40#0" expanded="true" />
-            <marker date="1516545667047" expanded="true" signature="2668:2829" ph="..." />
+            <element signature="e#5509#6248#0" expanded="false" />
+            <marker date="1518534717001" expanded="true" signature="2587:2748" ph="..." />
           </folding>
         </state>
       </provider>
@@ -889,8 +865,7 @@
             <element signature="e#1433#1668#0" expanded="false" />
             <element signature="e#1799#2094#0" expanded="false" />
             <element signature="e#2505#2623#0" expanded="false" />
-            <element signature="e#4362#4394#0" expanded="false" />
-            <element signature="e#5543#5653#0" expanded="false" />
+            <element signature="e#4477#4509#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -970,7 +945,8 @@
           <caret line="35" column="37" lean-forward="true" selection-start-line="35" selection-start-column="37" selection-end-line="35" selection-end-column="37" />
           <folding>
             <element signature="e#0#40#0" expanded="true" />
-            <marker date="1516545667047" expanded="true" signature="2668:2829" ph="..." />
+            <element signature="e#5509#6248#0" expanded="false" />
+            <marker date="1518534717001" expanded="true" signature="2587:2748" ph="..." />
           </folding>
         </state>
       </provider>
@@ -993,8 +969,7 @@
             <element signature="e#1433#1668#0" expanded="false" />
             <element signature="e#1799#2094#0" expanded="false" />
             <element signature="e#2505#2623#0" expanded="false" />
-            <element signature="e#4362#4394#0" expanded="false" />
-            <element signature="e#5543#5653#0" expanded="false" />
+            <element signature="e#4477#4509#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1074,7 +1049,8 @@
           <caret line="35" column="37" lean-forward="true" selection-start-line="35" selection-start-column="37" selection-end-line="35" selection-end-column="37" />
           <folding>
             <element signature="e#0#40#0" expanded="true" />
-            <marker date="1516545667047" expanded="true" signature="2668:2829" ph="..." />
+            <element signature="e#5509#6248#0" expanded="false" />
+            <marker date="1518534717001" expanded="true" signature="2587:2748" ph="..." />
           </folding>
         </state>
       </provider>
@@ -1107,8 +1083,7 @@
             <element signature="e#1433#1668#0" expanded="false" />
             <element signature="e#1799#2094#0" expanded="false" />
             <element signature="e#2505#2623#0" expanded="false" />
-            <element signature="e#4362#4394#0" expanded="false" />
-            <element signature="e#5543#5653#0" expanded="false" />
+            <element signature="e#4477#4509#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1218,16 +1193,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/project/Calendar_Directions/directions.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="283">
-          <caret line="70" column="50" lean-forward="false" selection-start-line="70" selection-start-column="50" selection-end-line="70" selection-end-column="50" />
-          <folding>
-            <element signature="e#0#17#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/project/app.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="419">
@@ -1254,6 +1219,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/project/Calendar_Directions/push_to_calendar.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/project/Calendar_Directions/get_calendar_data.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="793">
@@ -1264,10 +1237,60 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/project/Calendar_Directions/directions.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="62">
+          <caret line="70" column="50" lean-forward="false" selection-start-line="70" selection-start-column="50" selection-end-line="70" selection-end-column="50" />
+          <folding>
+            <element signature="e#0#17#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/Save_Photos/photos.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="26" lean-forward="true" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
+          <folding>
+            <element signature="e#24#33#0" expanded="true" />
+            <marker date="1518364491093" expanded="true" signature="146:257" ph="CREATE TABLE... files" />
+            <marker date="1518364491093" expanded="true" signature="987:1070" ph="SELECT 1 FRO... tables" />
+            <marker date="1518364491093" expanded="true" signature="1992:2075" ph="INSERT INTO files... " />
+            <marker date="1518364491093" expanded="true" signature="2495:2551" ph="SELECT file_... files" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/database.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding>
+            <element signature="e#32#57#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/menu.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" column="3" lean-forward="true" selection-start-line="26" selection-start-column="3" selection-end-line="26" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/sheet.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-23">
+          <caret line="17" column="13" lean-forward="false" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/project/time_calculations.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-873">
-          <caret line="61" column="90" lean-forward="false" selection-start-line="61" selection-start-column="90" selection-end-line="61" selection-end-column="90" />
+        <state relative-caret-position="-172">
+          <caret line="92" column="19" lean-forward="true" selection-start-line="92" selection-start-column="19" selection-end-line="92" selection-end-column="19" />
           <folding>
             <element signature="e#0#40#0" expanded="true" />
             <element signature="e#134#193#0" expanded="false" />
@@ -1282,27 +1305,19 @@
             <element signature="e#1433#1668#0" expanded="false" />
             <element signature="e#1799#2094#0" expanded="false" />
             <element signature="e#2505#2623#0" expanded="false" />
-            <element signature="e#4362#4394#0" expanded="false" />
-            <element signature="e#5543#5653#0" expanded="false" />
+            <element signature="e#4477#4509#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project/sheet.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-23">
-          <caret line="17" column="13" lean-forward="false" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/project/sheet_class.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-448">
-          <caret line="64" column="0" lean-forward="true" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
+        <state relative-caret-position="436">
+          <caret line="225" column="38" lean-forward="true" selection-start-line="225" selection-start-column="38" selection-end-line="225" selection-end-column="38" />
           <folding>
             <element signature="e#0#40#0" expanded="true" />
-            <marker date="1516545667047" expanded="true" signature="2668:2829" ph="..." />
+            <element signature="e#5509#6248#0" expanded="false" />
+            <marker date="1518534717001" expanded="true" signature="2587:2748" ph="..." />
           </folding>
         </state>
       </provider>
